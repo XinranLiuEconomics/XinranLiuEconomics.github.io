@@ -19,4 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Xinran liu hahahahahahah
+Hi, I am Xinran Liu, a third-year PhD student from the Economics Department at the University of California, Riverside.
