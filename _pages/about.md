@@ -19,4 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Xinran Liu, a third-year PhD student from the Economics Department at the University of California, Riverside.
+Hi, I am Xinran Liu, a fifth-year PhD candidate in the Department of Economics at the University of California, Riverside. Outside of my research, I am a proud dog mom to a Yorkshire Terrier named NiuNiu.
