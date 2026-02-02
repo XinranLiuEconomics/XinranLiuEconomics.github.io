@@ -6,7 +6,7 @@ subtitle:  xinran.liu@email.ucr.edu
 
 profile:
   align: right
-  image: camera1.jpeg
+  image: niuniu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>3122 Sproul Hall</p>
