@@ -1,6 +1,6 @@
 ---
 layout: academic
 title: Research
-permalink: /publications/
+permalink: /research/
 section: research
 ---

@@ -1,22 +1,6 @@
 ---
-layout: about
-title: about
+layout: academic
+title: Home
 permalink: /
-subtitle:  xinran.liu@email.ucr.edu
-
-profile:
-  align: right
-  image: niuniu.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>3122 Sproul Hall</p>
-    <p>University of California, Riverside</p>
-    <p>Riverside, CA,92507</p>
-
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+home: true
 ---
-
-Hi, I am Xinran Liu, a fifth-year PhD candidate in the Department of Economics at the University of California, Riverside. Outside of my research, I am a proud dog mom to a Yorkshire Terrier named NiuNiu.
