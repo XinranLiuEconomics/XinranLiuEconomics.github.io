@@ -6,13 +6,16 @@ section: teaching
 ---
 
 <style>
-.teaching-school { margin: -6px 0 30px; color: #697174; }
-.teaching-section { max-width: 820px; margin-bottom: 34px; }
-.teaching-section h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 25px; font-weight: 400; margin: 0 0 18px; }
+.teaching-school { margin: -10px 0 22px; color: #697174; font-size: 14px; }
+.teaching-section { max-width: 100%; margin-bottom: 22px; }
+.teaching-section h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 19px; font-weight: 400; margin: 0 0 9px; }
 .course-list { list-style: none; margin: 0; padding: 0; }
-.course-list li { margin: 0 0 19px; }
-.course-name { display: block; font-size: 16px; font-weight: 600; line-height: 1.5; }
-.course-terms { display: block; margin-top: 3px; color: #697174; font-size: 14px; line-height: 1.6; }
+.course-list li { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 18px; margin: 0; padding: 4px 0; align-items: baseline; }
+.course-name { font-size: 14px; font-weight: 400; line-height: 1.5; }
+.course-terms { color: #697174; font-size: 12px; line-height: 1.5; }
+@media (max-width: 750px) {
+  .course-list li { grid-template-columns: 1fr; gap: 1px; padding: 5px 0; }
+}
 </style>
 
 <p class="teaching-school">University of California, Riverside</p>
