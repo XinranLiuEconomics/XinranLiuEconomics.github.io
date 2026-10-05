@@ -32,6 +32,6 @@ section: research
   <h2 id="selected-presentations">Selected Presentations</h2>
   <ul class="presentation-list">
     <li><span>Asian Meeting of the Econometric Society (AMES), Hong Kong</span><span class="presentation-meta">2026</span></li>
-    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Accepted</span></li>
+    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Upcoming</span></li>
   </ul>
 </section>
