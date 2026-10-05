@@ -16,6 +16,8 @@ section: research
 .presentation-list { list-style: none; margin: 0; padding: 0; }
 .presentation-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 20px; padding: 6px 0; font-size: 14px; }
 .presentation-meta { color: #697174; font-size: 13px; }
+.presentation-paper { flex-basis: 100%; color: #697174; font-size: 14px; font-style: italic; }
+.presentation-list li + li { margin-top: 10px; }
 </style>
 
 <article class="research-paper" id="jmp" aria-labelledby="generated-iv-title">
@@ -31,7 +33,7 @@ section: research
 <section class="research-presentations" aria-labelledby="selected-presentations">
   <h2 id="selected-presentations">Selected Presentations</h2>
   <ul class="presentation-list">
-    <li><span>Asian Meeting of the Econometric Society (AMES), Hong Kong</span><span class="presentation-meta">2026</span></li>
-    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Upcoming</span></li>
+    <li><span>Asian Meeting of the Econometric Society (AMES), Hong Kong</span><span class="presentation-meta">2026</span><span class="presentation-paper">Wasserstein Distributional Synthetic Controls</span></li>
+    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Upcoming</span><span class="presentation-paper"><a href="#jmp">Generated Instruments with Validation Data</a></span></li>
   </ul>
 </section>
