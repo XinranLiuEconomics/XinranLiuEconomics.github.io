@@ -12,6 +12,10 @@ section: research
 .paper-authors { margin: 0 0 24px; color: #697174; font-size: 14px; }
 .paper-abstract { border-top: 1px solid #e3e7e8; padding-top: 18px; }
 .paper-abstract p { margin: 0; font-size: 16px; line-height: 1.8; }
+.research-presentations { max-width: 900px; margin-top: 32px; padding-top: 26px; border-top: 1px solid #e3e7e8; }
+.presentation-list { list-style: none; margin: 0; padding: 0; }
+.presentation-list li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 3px 20px; padding: 6px 0; font-size: 14px; }
+.presentation-meta { color: #697174; font-size: 13px; }
 </style>
 
 <article class="research-paper" id="jmp" aria-labelledby="generated-iv-title">
@@ -23,3 +27,11 @@ section: research
     <p>Which conclusions about the yield response to Federal Open Market Committee (FOMC) news survive when the policy instrument is imperfect? We study nominal and real yields and inflation compensation around 92 FOMC meetings using an instrument constructed from changes in money-market rates around FOMC announcements. Because the instrument may also reflect nonpolicy news, we use historical benchmark data to quantify the resulting instrument error. Treating the instrument as valid, both nominal and real yields rise, with real yields rising more. Allowing the instrument to be imperfect, the evidence that both yields rise remains more robust than their ordering. This validation evidence therefore distinguishes which parts of the yield response continue to support a policy interpretation.</p>
   </section>
 </article>
+
+<section class="research-presentations" aria-labelledby="selected-presentations">
+  <h2 id="selected-presentations">Selected Presentations</h2>
+  <ul class="presentation-list">
+    <li><span>Asian Meeting of the Econometric Society (AMES), Hong Kong</span><span class="presentation-meta">2026</span></li>
+    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Accepted</span></li>
+  </ul>
+</section>
