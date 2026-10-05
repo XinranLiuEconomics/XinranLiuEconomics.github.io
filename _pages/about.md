@@ -23,5 +23,5 @@ home: true
 
 <section class="home-fields" aria-labelledby="research-fields">
   <h2 id="research-fields">Research Fields</h2>
-  <p><span>Econometrics</span> · <span>Macroeconometrics</span> · <span>Monetary Policy</span> · <span>Causal Inference</span> · <span>Forecast Combination</span></p>
+  <p><span>Econometrics</span> · <span>Macroeconometrics</span> · <span>Causal Inference</span> · <span>Forecast Combination</span></p>
 </section>
