@@ -34,6 +34,6 @@ section: research
   <h2 id="selected-presentations">Selected Presentations</h2>
   <ul class="presentation-list">
     <li><span>Asian Meeting of the Econometric Society (AMES), Hong Kong</span><span class="presentation-meta">2026</span><span class="presentation-paper">Wasserstein Distributional Synthetic Controls</span></li>
-    <li><span>Midwest Econometrics Group (MEG)</span><span class="presentation-meta">2026 · Upcoming</span><span class="presentation-paper"><a href="#jmp">Generated Instruments with Validation Data</a></span></li>
+    <li><span>Midwest Econometrics Group (MEG), Cincinnati</span><span class="presentation-meta">2026 · Upcoming</span><span class="presentation-paper"><a href="#jmp">Generated Instruments with Validation Data</a></span></li>
   </ul>
 </section>
