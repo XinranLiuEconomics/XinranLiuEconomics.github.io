@@ -26,7 +26,10 @@
     main { padding-block: 46px 54px; }
     .home-grid { display: grid; grid-template-columns: 270px minmax(0,1fr); gap: 52px; align-items: start; }
     .portrait { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
-    h1 { margin: 0 0 22px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(32px, 4vw, 42px); font-weight: 400; line-height: 1.2; letter-spacing: -.6px; }
+    h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; color: var(--ink); }
+    h1 { margin: 0 0 22px; font-size: 34px; line-height: 1.2; letter-spacing: -.6px; }
+    h2 { margin: 0 0 18px; font-size: 22px; line-height: 1.35; }
+    h3 { margin: 0 0 9px; font-size: 16px; line-height: 1.4; }
     .profile-contact { max-width: 270px; }
     .email-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 14px; }
     .email-row a { font-size: 14px; }
@@ -36,7 +39,6 @@
     .copy-status { min-height: 18px; margin: 3px 0 0; color: var(--muted); font-size: 11px; }
     .home-copy { padding-top: 4px; }
     .page-main { min-height: 384px; }
-    .page-main h1 { font-size: 34px; }
     footer { padding-block: 19px 28px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
     @media (max-width: 650px) {
       .wrap { width: calc(100% - 40px); }

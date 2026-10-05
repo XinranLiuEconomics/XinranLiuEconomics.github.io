@@ -8,10 +8,9 @@ section: research
 <style>
 .research-paper { max-width: 900px; }
 .paper-label { margin: 0 0 10px; color: #345f70; font-size: 13px; font-weight: 600; }
-.paper-title { margin: 0 0 8px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(23px, 3vw, 29px); font-weight: 400; line-height: 1.35; }
+.paper-title { margin-bottom: 8px; }
 .paper-authors { margin: 0 0 24px; color: #697174; font-size: 14px; }
 .paper-abstract { border-top: 1px solid #e3e7e8; padding-top: 18px; }
-.paper-abstract h3 { margin: 0 0 9px; font-size: 13px; font-weight: 600; }
 .paper-abstract p { margin: 0; font-size: 16px; line-height: 1.8; }
 </style>
 

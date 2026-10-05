@@ -8,7 +8,6 @@ section: teaching
 <style>
 .teaching-school { margin: -10px 0 26px; color: #697174; font-size: 14px; }
 .teaching-section { margin: 0; }
-.teaching-section h2 { margin: 0 0 18px; font-family: Georgia, 'Times New Roman', serif; font-size: 22px; font-weight: 400; line-height: 1.3; }
 .teaching-awards { padding-bottom: 26px; }
 .award-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 18px; margin: 0; font-size: 16px; }
 .award-name strong { font-weight: 600; }
@@ -23,7 +22,7 @@ section: teaching
 .feedback-item figcaption { color: #697174; font-size: 12px; line-height: 1.6; }
 .feedback-source::before { content: " · "; }
 .course-group + .course-group { margin-top: 20px; }
-.course-group h3 { margin: 0 0 8px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 600; color: #555e62; }
+.course-group h3 { margin-bottom: 8px; }
 .course-list { list-style: none; margin: 0; padding: 0; }
 .course-list li { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px; margin: 0; padding: 5px 0; align-items: baseline; }
 .course-name { font-size: 14px; line-height: 1.5; }
