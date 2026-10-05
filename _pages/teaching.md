@@ -13,6 +13,10 @@ section: teaching
 .course-list li { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 18px; margin: 0; padding: 4px 0; align-items: baseline; }
 .course-name { font-size: 14px; font-weight: 400; line-height: 1.5; }
 .course-terms { color: #697174; font-size: 12px; line-height: 1.5; }
+.teaching-awards { padding: 15px 18px; border-left: 3px solid #345f70; background: #f5f8f9; }
+.award-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; margin: 0; font-size: 16px; }
+.award-years { color: #345f70; font-weight: 600; white-space: nowrap; }
+.award-institution { margin: 3px 0 0; color: #697174; font-size: 12px; }
 .student-feedback { margin-bottom: 28px; }
 .feedback-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 30px; margin-top: 15px; }
 .feedback-item { margin: 0; padding-left: 15px; border-left: 2px solid #d5dfe3; }
@@ -27,6 +31,12 @@ section: teaching
 </style>
 
 <p class="teaching-school">University of California, Riverside</p>
+
+<section class="teaching-section teaching-awards" aria-labelledby="teaching-awards">
+  <h2 id="teaching-awards">Teaching Awards</h2>
+  <p class="award-name"><strong>Outstanding Teaching Assistant Award</strong><span class="award-years">2024 &amp; 2026</span></p>
+  <p class="award-institution">Graduate Division, University of California, Riverside</p>
+</section>
 
 <section class="teaching-section student-feedback" aria-labelledby="student-feedback">
   <h2 id="student-feedback">Selected Student Feedback</h2>
