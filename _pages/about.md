@@ -18,7 +18,7 @@ home: true
 
 <p class="home-position">Ph.D. Candidate in Economics<br>University of California, Riverside</p>
 
-<p class="home-advisor">Dissertation Chair: <a href="https://sites.google.com/site/marcellechauvet/">Marcelle Chauvet</a></p>
+<p class="home-advisor">Dissertation Chair: <a href="https://sites.google.com/site/marcellechauvet/home?authuser=0">Marcelle Chauvet</a></p>
 
 <p class="home-market">I am on the 2026–2027 academic job market.</p>
 
