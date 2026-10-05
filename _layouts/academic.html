@@ -27,6 +27,13 @@
     .home-grid { display: grid; grid-template-columns: 270px minmax(0,1fr); gap: 52px; align-items: start; }
     .portrait { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
     h1 { margin: 0 0 22px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(32px, 4vw, 42px); font-weight: 400; line-height: 1.2; letter-spacing: -.6px; }
+    .profile-contact { max-width: 270px; }
+    .email-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 14px; }
+    .email-row a { font-size: 14px; }
+    .copy-email { border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--accent); font: inherit; font-size: 12px; padding: 5px 10px; min-height: 34px; cursor: pointer; }
+    .copy-email:hover { background: #f5f8f9; border-color: #b7c8cf; }
+    .copy-email:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .copy-status { min-height: 18px; margin: 3px 0 0; color: var(--muted); font-size: 11px; }
     .home-copy { padding-top: 4px; }
     .page-main { min-height: 384px; }
     .page-main h1 { font-size: 34px; }
@@ -61,7 +68,14 @@
   <main id="main" class="wrap {% unless page.home %}page-main{% endunless %}">
     {% if page.home %}
     <div class="home-grid">
+      <div class="profile-contact">
       <img class="portrait" src="{{ '/assets/portraits/xinran-liu.jpeg' | relative_url }}" width="1122" height="1402" alt="Xinran Liu" fetchpriority="high">
+        <div class="email-row">
+          <a id="contact-email" href="mailto:xliu342@ucr.edu">xliu342@ucr.edu</a>
+          <button class="copy-email" id="copy-email" type="button" aria-label="Copy email address" hidden>Copy</button>
+        </div>
+        <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+      </div>
       <section class="home-copy" aria-labelledby="name">
         <h1 id="name">Xinran Liu</h1>
         {{ content }}
@@ -73,5 +87,57 @@
     {% endif %}
   </main>
   <footer class="wrap">&copy; {{ 'now' | date: '%Y' }} Xinran Liu</footer>
+{% if page.home %}
+<script>
+(function () {
+  var button = document.getElementById('copy-email');
+  var email = document.getElementById('contact-email');
+  var status = document.getElementById('copy-status');
+  var timer;
+  button.hidden = false;
+  button.addEventListener('click', async function () {
+    clearTimeout(timer);
+    button.disabled = true;
+    var copied = false;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(email.textContent);
+        copied = true;
+      }
+    } catch (error) {}
+    if (!copied) {
+      var field = document.createElement('textarea');
+      field.value = email.textContent;
+      field.setAttribute('readonly', '');
+      field.style.position = 'fixed';
+      field.style.opacity = '0';
+      document.body.appendChild(field);
+      field.select();
+      field.setSelectionRange(0, field.value.length);
+      try { copied = document.execCommand('copy'); } catch (error) {}
+      field.remove();
+      button.focus();
+    }
+    button.disabled = false;
+    if (copied) {
+      button.textContent = 'Copied';
+      status.textContent = 'Email address copied.';
+      timer = setTimeout(function () {
+        button.textContent = 'Copy';
+        status.textContent = '';
+      }, 3000);
+    } else {
+      button.textContent = 'Copy';
+      status.textContent = 'Please select the email address to copy it.';
+      var selection = window.getSelection();
+      var range = document.createRange();
+      range.selectNodeContents(email);
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }
+  });
+})();
+</script>
+{% endif %}
 </body>
 </html>
