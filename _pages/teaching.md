@@ -1,5 +1,7 @@
 ---
 layout: academic
+sitemap: true
+description: "Xinran Liu's economics teaching experience, teaching awards, and selected student feedback at the University of California, Riverside."
 title: Teaching
 permalink: /teaching/
 section: teaching

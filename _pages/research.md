@@ -1,5 +1,7 @@
 ---
 layout: academic
+sitemap: true
+description: "Research by Xinran Liu at UC Riverside on econometrics and monetary policy, including Generated Instruments with Validation Data."
 title: Research
 permalink: /research/
 section: research

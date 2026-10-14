@@ -1,5 +1,7 @@
 ---
 layout: academic
+sitemap: true
+description: "Xinran Liu is an Economics Ph.D. candidate at UC Riverside researching econometrics, macroeconometrics, causal inference, and forecast combination."
 title: Home
 permalink: /
 home: true

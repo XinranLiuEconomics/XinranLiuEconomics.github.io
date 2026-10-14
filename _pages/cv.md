@@ -1,5 +1,7 @@
 ---
 layout: academic
+sitemap: true
+description: "View and download the curriculum vitae of Xinran Liu, Economics Ph.D. candidate at the University of California, Riverside."
 title: CV
 permalink: /cv/
 section: cv
