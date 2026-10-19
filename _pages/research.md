@@ -26,6 +26,7 @@ section: research
   <p class="paper-label">Job Market Paper</p>
   <h2 class="paper-title" id="generated-iv-title">Generated Instruments with Validation Data</h2>
   <p class="paper-authors">with Dingli Wang</p>
+  <p class="paper-links"><a href="https://ssrn.com/abstract=7625919" target="_blank" rel="noopener noreferrer">SSRN</a></p>
   <section class="paper-abstract" aria-labelledby="generated-iv-abstract">
     <h3 id="generated-iv-abstract">Abstract</h3>
     <p>Which conclusions about the yield response to Federal Open Market Committee (FOMC) news survive when the policy instrument is imperfect? We study nominal and real yields and inflation compensation around 92 FOMC meetings using an instrument constructed from changes in money-market rates around FOMC announcements. Because the instrument may also reflect nonpolicy news, we use historical benchmark data to quantify the resulting instrument error. Treating the instrument as valid, both nominal and real yields rise, with real yields rising more. Allowing the instrument to be imperfect, the evidence that both yields rise remains more robust than their ordering. This validation evidence therefore distinguishes which parts of the yield response continue to support a policy interpretation.</p>
