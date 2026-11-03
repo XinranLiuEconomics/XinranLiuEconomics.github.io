@@ -1,6 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-736290E2L7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-736290E2L7');
+
+    function trackMaterialClick(event) {
+      const link = event.target.closest('a[href]');
+      if (!link) return;
+      const url = new URL(link.href);
+      let name;
+      if (url.origin === location.origin) {
+        if (url.pathname === '/assets/pdf/Xinran_Liu_CV.pdf') {
+          name = link.hasAttribute('download') ? 'cv_download_click' : 'cv_open_click';
+        } else if (url.pathname === '/assets/pdf/Xinran_MEG-2.pdf') {
+          name = 'jmp_slides_click';
+        }
+      } else if (url.hostname === 'ssrn.com' && url.searchParams.get('abstract') === '7625919') {
+        name = 'jmp_ssrn_click';
+      }
+      if (name) gtag('event', name, { link_url: link.href });
+    }
+    document.addEventListener('click', trackMaterialClick);
+    document.addEventListener('auxclick', function(event) {
+      if (event.button === 1) trackMaterialClick(event);
+    });
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% capture seo_title %}{% if page.home %}Xinran Liu | Economics PhD Candidate | UC Riverside{% else %}{{ page.title }} | Xinran Liu | UC Riverside{% endif %}{% endcapture %}
