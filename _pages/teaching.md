@@ -15,8 +15,10 @@ section: teaching
 .award-name strong { font-weight: 600; }
 .award-years { color: #345f70; white-space: nowrap; }
 .award-institution { margin: 4px 0 0; color: #697174; font-size: 12px; }
-.student-feedback, .teaching-experience { border-top: 1px solid #e3e7e8; padding-top: 26px; }
-.student-feedback { padding-bottom: 28px; }
+.student-feedback, .teaching-experience, .teaching-materials { border-top: 1px solid #e3e7e8; padding-top: 26px; }
+.student-feedback, .teaching-materials { padding-bottom: 28px; }
+.teaching-materials h3 { margin-bottom: 8px; }
+.teaching-material-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 0; }
 .feedback-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; max-width: 850px; }
 .feedback-item { margin: 0; }
 .feedback-item blockquote { margin: 0 0 5px; }
@@ -65,6 +67,16 @@ section: teaching
       <figcaption><span>ECON 101 · Winter 2024</span><span class="feedback-source">Unsolicited student email</span></figcaption>
     </figure>
   </div>
+</section>
+
+<section class="teaching-section teaching-materials" aria-labelledby="teaching-materials">
+  <h2 id="teaching-materials">Teaching Materials</h2>
+  <h3>Confidence Intervals for a Mean</h3>
+  <p>A recorded walkthrough of Handout 6, using R to construct confidence intervals for a population mean, explore interval width, and illustrate repeated-sampling coverage through simulation.</p>
+  <p class="teaching-material-links">
+    <a href="https://youtu.be/iV3WUmALKFA" target="_blank" rel="noopener noreferrer">Watch video on YouTube</a>
+    <a href="{{ '/assets/pdf/Handout_6_Video_Script_Confidence_Intervals_for_a_Mean.pdf' | relative_url }}">Video script (PDF)</a>
+  </p>
 </section>
 
 <section class="teaching-section teaching-experience" aria-labelledby="teaching-experience">
