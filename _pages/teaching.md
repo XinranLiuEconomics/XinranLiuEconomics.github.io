@@ -49,6 +49,11 @@ section: teaching
 
 <section class="teaching-section teaching-materials" aria-labelledby="teaching-materials">
   <h2 id="teaching-materials">Teaching Materials</h2>
+  <h3>ECON 124 — World Economic History</h3>
+  <p class="teaching-material-links">
+    <a href="{{ '/assets/pdf/Syllabus_124.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">View syllabus (PDF)</a>
+    <a href="{{ '/assets/pdf/Syllabus_124.pdf' | relative_url }}" download>Download syllabus</a>
+  </p>
   <h3>Confidence Intervals for a Mean</h3>
   <p>A recorded walkthrough of Handout 6, using R to construct confidence intervals for a population mean, explore interval width, and illustrate repeated-sampling coverage through simulation.</p>
   <p class="teaching-material-links">
