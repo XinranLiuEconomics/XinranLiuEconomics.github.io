@@ -47,6 +47,16 @@ section: teaching
   <p class="award-institution">Graduate Division, University of California, Riverside</p>
 </section>
 
+<section class="teaching-section teaching-materials" aria-labelledby="teaching-materials">
+  <h2 id="teaching-materials">Teaching Materials</h2>
+  <h3>Confidence Intervals for a Mean</h3>
+  <p>A recorded walkthrough of Handout 6, using R to construct confidence intervals for a population mean, explore interval width, and illustrate repeated-sampling coverage through simulation.</p>
+  <p class="teaching-material-links">
+    <a href="https://youtu.be/iV3WUmALKFA" target="_blank" rel="noopener noreferrer">Watch video on YouTube</a>
+    <a href="{{ '/assets/pdf/Handout_6_Video_Script_Confidence_Intervals_for_a_Mean.pdf' | relative_url }}">Video script (PDF)</a>
+  </p>
+</section>
+
 <section class="teaching-section student-feedback" aria-labelledby="student-feedback">
   <h2 id="student-feedback">Selected Student Feedback</h2>
   <p><a href="{{ '/assets/pdf/Teaching_Evaluations.pdf' | relative_url }}">Teaching Evaluations (PDF)</a> — Summary and original reports, ordered from newest to oldest.</p>
@@ -68,16 +78,6 @@ section: teaching
       <figcaption><span>ECON 101 · Winter 2024</span><span class="feedback-source">Unsolicited student email</span></figcaption>
     </figure>
   </div>
-</section>
-
-<section class="teaching-section teaching-materials" aria-labelledby="teaching-materials">
-  <h2 id="teaching-materials">Teaching Materials</h2>
-  <h3>Confidence Intervals for a Mean</h3>
-  <p>A recorded walkthrough of Handout 6, using R to construct confidence intervals for a population mean, explore interval width, and illustrate repeated-sampling coverage through simulation.</p>
-  <p class="teaching-material-links">
-    <a href="https://youtu.be/iV3WUmALKFA" target="_blank" rel="noopener noreferrer">Watch video on YouTube</a>
-    <a href="{{ '/assets/pdf/Handout_6_Video_Script_Confidence_Intervals_for_a_Mean.pdf' | relative_url }}">Video script (PDF)</a>
-  </p>
 </section>
 
 <section class="teaching-section teaching-experience" aria-labelledby="teaching-experience">
