@@ -1,7 +1,7 @@
 ---
 layout: academic
 sitemap: true
-description: "Xinran Liu's economics teaching experience, teaching awards, and selected student feedback at the University of California, Riverside."
+description: "Xinran Liu's economics teaching experience, teaching awards, and student feedback at the University of California, Riverside."
 title: Teaching
 permalink: /teaching/
 section: teaching
@@ -63,8 +63,8 @@ section: teaching
 </section>
 
 <section class="teaching-section student-feedback" aria-labelledby="student-feedback">
-  <h2 id="student-feedback">Selected Student Feedback</h2>
-  <p><a href="{{ '/assets/pdf/Teaching_Evaluations.pdf' | relative_url }}">Teaching Evaluations (PDF)</a> — Summary and original reports, ordered from newest to oldest.</p>
+  <h2 id="student-feedback">Student Feedback</h2>
+  <p><a href="{{ '/assets/pdf/Teaching_Evaluations.pdf' | relative_url }}">Complete Teaching Evaluations (PDF)</a> — Summary and original reports, ordered from newest to oldest.</p>
   <div class="feedback-grid">
     <figure class="feedback-item">
       <blockquote><p>“She was able to simplify and explain all of the concepts in a way that made me feel confident about the material.”</p></blockquote>
